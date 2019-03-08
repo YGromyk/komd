@@ -9,7 +9,7 @@ class Readme : Component() {
     override fun renderText(): String {
         return buildString {
             components.forEach { component ->
-                append(component.renderText() + "</br>" + "\n")
+                append(component.renderText() + "\n\n")
             }
             append("Created at ${Date()}")
         }
