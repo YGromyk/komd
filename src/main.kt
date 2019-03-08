@@ -13,6 +13,6 @@ fun main() {
             path = "images/kotlin-logo.png"
         }
     }
-    File("README.rd").writeText(readme.renderText())
+    File("README.md").writeText(readme.renderText())
     readme.renderText().println()
 }
