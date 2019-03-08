@@ -1,4 +1,4 @@
-package components
+package components.text
 
 abstract class Component(var content: String = "") {
     abstract fun renderText(): String

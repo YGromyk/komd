@@ -1,6 +1,7 @@
 package components
 
 import components.text.*
+import components.text.List
 
 fun readme(block: Readme.() -> Unit): Readme {
     val readme = Readme()
@@ -21,8 +22,10 @@ fun Readme.italic(block: ItalicText.() -> String) =
 fun Readme.quote(block: QuotingText.() -> String) =
     initComponent(QuotingText().apply { content = block() })
 
-fun Readme.image(block: Image.() -> Unit) = initComponent(Image().apply(block))
+fun Readme.image(block: Image.() -> Unit) = initComponent(initComponent(Image().apply(block)))
+
 fun Readme.header(headerSize: Int, block: HeadingText.() -> String) = initComponent(
-    HeadingText(
-        headerSize
-    ).apply { content = block() })
+    HeadingText(headerSize).apply { content = block() }
+)
+
+fun Readme.list(action: List.() -> Unit) = initComponent(List().apply(action))

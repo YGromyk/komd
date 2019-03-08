@@ -1,5 +1,6 @@
 package components
 
+import components.text.Component
 import java.util.*
 
 @Suppress("unused")

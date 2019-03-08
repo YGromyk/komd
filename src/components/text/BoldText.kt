@@ -1,7 +1,5 @@
 package components.text
 
-import components.Component
-
 class BoldText : Component() {
     var boldMeasurement = BoldMeasurement.Bold1
     override fun renderText(): String {

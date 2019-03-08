@@ -7,7 +7,7 @@ import java.io.File
 fun main() {
     val readme = readme {
         header(1) { "KoRd" }
-        bold(BoldMeasurement.Bold2) { "KoRd is simple DSL that helps you to create beautiful readme files" }
+        bold(BoldMeasurement.Bold2) { "KoRd is simple DSL that helps you to create readme files" }
         image {
             description = "This is an image"
             path = "images/kotlin-logo.png"
@@ -18,9 +18,12 @@ fun main() {
                     " This is in contrast to a general-purpose language (GPL), " +
                     "which is broadly applicable across domains."
         }
-        bold(BoldMeasurement.Bold1) { "KoRd" }
-        italic { "It support all possible tags from Git" }
-        quote { "Can quote" }
+        italic { "It support all possible tags from GitHub" }
+        bold(BoldMeasurement.Bold1) { "KoRd can" }
+        list {
+            listItem { "Paste images" }
+            listItem { "Quote smth" }
+        }
     }
     File("README.md").writeText(readme.renderText())
     readme.renderText().println()
