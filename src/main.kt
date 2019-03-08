@@ -1,12 +1,18 @@
 import components.*
 import utils.println
+import java.io.File
 
 fun main() {
-    heading(1) { "TMDB" }.println()
-    heading(4) {
-        "TMDB is application that created to show "
-    }.println()
-    list {
-        listItem { "" }
+    val readme = readme {
+        bold(BoldMeasurement.H1) { "KoRd" }
+        bold(BoldMeasurement.H2) { "KoRd is simple DSL that helps you to create beautiful readme files" }
+        italic { "It support all possible tags from Git" }
+        quote { "Can quote" }
+        image {
+            description = "This is image"
+            path = "images/kotlin-logo.png"
+        }
     }
+    File("README.rd").writeText(readme.renderText())
+    readme.renderText().println()
 }

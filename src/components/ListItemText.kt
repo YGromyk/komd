@@ -5,11 +5,11 @@ class ListItemText : Component() {
         return "- $content"
     }
 }
-
+@Suppress("unused", "WeakerAccess")
 class List : Component() {
     val listItems = mutableListOf<ListItemText>()
     override fun renderText(): String {
-        buildString {
+        return buildString {
             listItems.forEach {
                 append(it.renderText() + "\n")
             }
@@ -19,6 +19,6 @@ class List : Component() {
 
 fun listItem(block: ListItemText.() -> String): ListItemText {
     val listItemText = ListItemText()
-    listItemText.content = block(listItemText)
+    listItemText.content = listItemText.block()
     return listItemText
 }
