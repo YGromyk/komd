@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="044749d5-325b-4636-b780-00551167d012" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/META-INF/komd.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/META-INF/komd.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/MainKt$main$readme$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/MainKt$main$readme$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/MainKt$main$readme$1$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/MainKt$main$readme$1$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/MainKt$main$readme$1$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/MainKt$main$readme$1$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/MainKt$main$readme$1$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/MainKt$main$readme$1$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/MainKt$main$readme$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/MainKt$main$readme$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/Component.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/components/Image.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/ListItemText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/ListItemTextKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/Readme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/components/Readme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/ReadmeDSLKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/components/ReadmeDSLKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/text/BoldMeasurement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/components/text/BoldMeasurement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/text/BoldText.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/components/text/BoldText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/text/HeadingText.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/components/text/HeadingText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/text/ItalicText.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/components/text/ItalicText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/komd/components/text/QuotingText.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/komd/components/text/QuotingText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Image.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListItemText.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/ListItemText.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Readme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Readme.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReadmeDSL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReadmeDSL.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Text.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/Text.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/text/BoldText.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/BoldText.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/text/HeadingText.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/HeadingText.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/text/ItalicText.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/ItalicText.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/text/QuotingText.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/QuotingText.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="225">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
                 <element signature="e#0#74#0" expanded="true" />
               </folding>
@@ -103,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ReadmeDSL.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+            <state relative-caret-position="330">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="e#20#72#0" expanded="true" />
               </folding>
@@ -121,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/text/QuotingText.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="45">
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -172,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/components/text/Text.kt" />
         <option value="$PROJECT_DIR$/src/components/ReadmeDSL.kt" />
         <option value="$PROJECT_DIR$/src/main.kt" />
+        <option value="$PROJECT_DIR$/src/components/text/QuotingText.kt" />
       </list>
     </option>
   </component>
@@ -221,7 +192,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552058120476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552058238689" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -278,22 +249,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="977" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22142857" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22142857" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.28425822" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49940476" visible="true" weight="0.28425822" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5005952" side_tool="true" visible="true" weight="0.28425822" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3295583" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3635334" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3635334" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -365,13 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/text/QuotingText.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/text/ItalicText.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -407,16 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ReadmeDSL.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
-          <folding>
-            <element signature="e#20#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/text/Text.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -426,11 +379,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="225">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="e#0#74#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ReadmeDSL.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#20#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/text/QuotingText.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
         </state>
       </provider>
     </entry>
