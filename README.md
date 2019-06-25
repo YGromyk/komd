@@ -1,6 +1,6 @@
-# KoRd
+# KoMd
 
-**KoRd is simple DSL that helps you to create readme files**
+**KoMd is simple DSL that helps you to create readme files**
 
 ![This is an image](images/kotlin-logo.png)
 
